@@ -1,0 +1,69 @@
+body{
+    top: 0;
+}
+
+.footer{
+    background-color:darkslategrey;
+    color:whitesmoke;
+}
+.navbardiv{
+    /* overflow: hidden;
+    position: fixed; */
+    top: 0;
+    height: 15%;
+    width: 100%;
+    justify-content: center;
+    line-height:50px;
+    font-weight: bolder;
+    font-size:larger;
+    background-color:rgb(176, 200, 201)
+}
+.navbar a{
+    float: left;
+    text-decoration: none;
+    display: block;
+    color: black;
+    text-align: center;
+}
+
+.first_block{
+    color: black;
+    background-color: gainsboro;
+}
+.second_block{
+    background-color: rgba(60, 202, 32, 0.212);
+    color: blueviolet;
+
+    left: 0px;
+}
+
+.third_block_intrest{
+    
+    background-color: rgba(109, 174, 179, 0.897);
+    color: black;
+}
+
+
+.test1, .test2, .test3, .test4, .test5{
+    color: rgb(63, 56, 56);
+    background-color: rgb(191, 189, 214);
+    transition: translate 0.5s;
+    margin-bottom: 10px;
+    cursor: pointer;
+    /*cursor: progress;*/
+    box-shadow: 0 0 20px 0 rgb(20, 20, 20);
+}
+
+.test1:hover, .test2:hover, .test3:hover, .test4:hover, .test5:hover{
+    background: white;
+    transform: translateY(15px);    
+    box-shadow: 0 0 20px 0 rgb(15, 15, 15);
+}
+
+.suggestionpen{
+    color: palevioletred;
+}
+.suggestionpen:hover{
+    color: wheat;
+}
+
